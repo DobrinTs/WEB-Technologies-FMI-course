@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <link href="81265.css" rel="stylesheet" />
+  <script defer src="./81265.js"></script>
+</head>
+
+<body>
+  <header class="customHeader">Регистрация</header>
+
+  <main>
+    <form method="post" class="flexForm" id="registerForm" action="/register.php">
+      <label id="username" class="hide"></label>
+      <input type="text" name="username" placeholder="Username" class="formItem">
+
+      <label id="pass1" class="hide"></label>
+      <input type="password" name="password" placeholder="Password" class="formItem">
+
+      <label id="pass2" class="hide"></label>
+      <input type="password" name="confirmPassword" placeholder="Confirm Password" class="formItem">
+
+      <button type="submit" name="submitButton" class="formSubmitButton" id="submitButton">
+        Регистрация
+      </button>
+    </form>
+  </main>
+</body>
+
+</html>

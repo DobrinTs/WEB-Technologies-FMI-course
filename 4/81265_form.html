@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> A simple form </title>
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <form method="post" action="./81265_handle_form.php">
+    <label for="course-title"> Course Title </label>
+    <input id="course-title" name="title">
+
+    <label for="course-lecturer"> Course Lecturer </label>
+    <input id="course-lecturer" name="lecturer">
+
+    <label for="course-description"> Course Description </label>
+    <input id="course-description" name="description">
+
+    <label for="course-group"> Course Group </label>
+    <select id="course-group" name="group">
+      <option value="М"> М </option>
+      <option value="ПМ"> ПМ </option>
+      <option value="ОКН"> ОКН </option>
+      <option value="ЯКН"> ЯКН </option>
+    </select>
+
+    <label for="course-credits"> Course Credits </label>
+    <input id="course-credits" name="credits" type="number" min="0">
+
+    <button> Submit </button>
+  </form>
+</body>
+
+</html>
