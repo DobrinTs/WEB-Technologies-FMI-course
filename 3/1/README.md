@@ -1,6 +1,6 @@
 <h1>Домашно 3.1 [11.11]</h1>
 Имате база от данни със следната таблица и данни:
-```sql
+
 CREATE TABLE electives (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(128),
@@ -13,7 +13,7 @@ VALUES
   ("Programming with Go", "Let's learn Go", "Nikolay Batchiyski"),
   ("AKDU", "Let's Graduate", "Svetlin Ivanov"),
   ("Web technologies", "Let's learn the web", "Milen Petrov");
-```
+
 Имплементирайте php страница с форма и валидация за добавяне на избираема дисциплина.
 
 Добавете колона created_at на таблицата electives, коята да сочи момента на добавяне на реда.
