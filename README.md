@@ -1,0 +1,1 @@
+This repository contains my homeworks for the WEB Technologies course at the Faculty of Mathematics and Informatics.
